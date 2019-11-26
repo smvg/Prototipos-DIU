@@ -1,4 +1,4 @@
-# Prototipos-DIU
+# Prototipos Web de DIU
 Repositorio donde subimos nuestros maravillosos prototipos
 
 ---
