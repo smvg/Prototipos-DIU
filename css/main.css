@@ -40,6 +40,7 @@
   }
   body {
     font-size: 0.9rem;
+    background-color: rgb(255, 255, 255);
   }
   .page-wrapper .sidebar-wrapper,
   .sidebar-wrapper .sidebar-brand > a,
@@ -372,13 +373,36 @@
     overflow-x: hidden;
   }
 
-  .content {
+  .contenido {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 
   .option {
-    
+    /*outline: #5cb85c solid 2px;*/
+    background-color: rgba(173, 216, 230, 0.37);
+    padding: 1rem;
+    position: relative;
+    text-align: center;
+    margin: 3rem;
+    justify-content: center;
+    height: 30vh;
+    width: 30vh;
+    transition: all 0.2s;
+  }
+
+  .option:hover {
+    transform: scale(1.05);
+    background-color: lightblue;
+    cursor: pointer;
+  }
+
+  .option span {
+    position: absolute; 
+    top: 50%; 
+    transform: translate(-50%, -50%);
   }
   
   /*------scroll bar---------------------*/
