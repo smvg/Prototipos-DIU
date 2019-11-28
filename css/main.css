@@ -371,6 +371,15 @@
   .page-wrapper .page-content {
     overflow-x: hidden;
   }
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .option {
+    
+  }
   
   /*------scroll bar---------------------*/
   
