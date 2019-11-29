@@ -26,10 +26,6 @@
       background-color: lightgray;
   }
 
-  .notificacion:hover {
-      cursor: pointer;
-  }
-
   .notificacion h4 {
       font-weight: bold;
   }
