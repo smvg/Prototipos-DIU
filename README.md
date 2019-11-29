@@ -8,7 +8,7 @@ To-Do:
 - [ ] Entrada
 - [ ] Salida
 - [ ] Pagar
-- [ ] Notificaciones
+- [x] Notificaciones
 - [ ] Notificación
 - [ ] Localizar vehículo
 - [ ] Reservar plaza
