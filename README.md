@@ -9,7 +9,7 @@ To-Do:
 - [ ] Salida
 - [ ] Pagar
 - [x] Notificaciones
-- [ ] Notificación
+- [x] Notificación
 - [ ] Localizar vehículo
 - [ ] Reservar plaza
 - [ ] Consultar consumo
@@ -18,7 +18,7 @@ To-Do:
 - [ ] Modificar datos cliente
 - [ ] Formas de pago (añadir, modificar, eliminar)
 - [ ] Vehículos (añadir, modificar, eliminar)
-- [ ] Parking
+- [x] Parking
 - [ ] Consultar disponibilidad plazas
 - [ ] Consultar tarifas
 - [ ] Consultar facturas

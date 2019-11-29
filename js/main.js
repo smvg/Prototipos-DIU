@@ -1,6 +1,6 @@
 jQuery(function ($) {
 
-  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     $(".page-wrapper").removeClass("toggled");
   }
 
@@ -57,6 +57,15 @@ $('.option').click(function () {
     case 'option-6':
       window.location.href = "http://www.w3schools.com";
       break;
+    case 'option-7':
+      window.location.href = "http://www.w3schools.com";
+      break;
+    case 'option-8':
+      window.location.href = "http://www.w3schools.com";
+      break;
+    case 'option-9':
+      window.location.href = "http://www.w3schools.com";
+      break;
     default:
       alert("Id no especificada")
       break;
@@ -64,10 +73,10 @@ $('.option').click(function () {
 
 });
 
-$('.floating-notification').click(function() {
+$('.floating-notification').click(function () {
   window.location.href = "notificaciones.html";
 });
 
-$('.close').click(function() {
+$('.close').click(function () {
   $(this).closest('.notificacion').remove();
 });
