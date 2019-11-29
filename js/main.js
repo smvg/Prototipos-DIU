@@ -1,5 +1,9 @@
 jQuery(function ($) {
 
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    $(".page-wrapper").removeClass("toggled");
+  }
+
   $(".sidebar-dropdown > a").click(function () {
     $(".sidebar-submenu").slideUp(200);
     if (
