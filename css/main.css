@@ -404,6 +404,29 @@
     top: 50%; 
     transform: translate(-50%, -50%);
   }
+
+  .floating-notification {
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin: 2rem;
+    transition: all .2s;
+  }
+
+  .floating-notification:hover {
+    transform: rotate(-15deg);
+    cursor: pointer;
+  }
+
+  .icon-option {
+    height: 70%;
+    width: 70%;
+  }
+
+  .option span h3 {
+    margin-top: 1rem;
+  }
   
   /*------scroll bar---------------------*/
   
