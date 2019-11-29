@@ -1,0 +1,46 @@
+.contenido {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .floating-notification {
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin: 2rem;
+    transition: all .2s;
+  }
+
+  .floating-notification:hover {
+    transform: rotate(-15deg);
+    cursor: pointer;
+  }
+
+  .notificacion {
+      width: 100%;
+      margin: 1rem;
+      padding: 1rem;
+      height: auto;
+      position: relative;
+      background-color: lightgray;
+  }
+
+  .notificacion:hover {
+      cursor: pointer;
+  }
+
+  .notificacion h4 {
+      font-weight: bold;
+  }
+
+  .notificacion span {
+      font-style: italic;
+  }
+
+  .notificacion i {
+      position: absolute;
+      font-size: 1.5rem;
+      top: 7%;
+      right: 1%;
+  }
