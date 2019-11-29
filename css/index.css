@@ -1,0 +1,53 @@
+.contenido {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .option {
+    background-color: rgba(173, 216, 230, 0.37);
+    padding: 1rem;
+    position: relative;
+    text-align: center;
+    margin: 3rem;
+    justify-content: center;
+    height: 30vh;
+    width: 30vh;
+    transition: all 0.2s;
+  }
+
+  .option:hover {
+    transform: scale(1.05);
+    background-color: lightblue;
+    cursor: pointer;
+  }
+
+  .option span {
+    position: absolute; 
+    top: 50%; 
+    transform: translate(-50%, -50%);
+  }
+
+  .floating-notification {
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin: 2rem;
+    transition: all .2s;
+  }
+
+  .floating-notification:hover {
+    transform: rotate(-15deg);
+    cursor: pointer;
+  }
+
+  .icon-option {
+    height: 70%;
+    width: 70%;
+  }
+
+  .option span h3 {
+    margin-top: 1rem;
+  }
