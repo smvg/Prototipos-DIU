@@ -59,3 +59,11 @@ $('.option').click(function () {
   }
 
 });
+
+$('.floating-notification').click(function() {
+  window.location.href = "notificaciones.html";
+});
+
+$('.close').click(function() {
+  $(this).closest('.notificacion').remove();
+});
