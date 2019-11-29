@@ -5,10 +5,10 @@ Repositorio donde subimos nuestros maravillosos prototipos
 To-Do:
 
 - [x] Inicio
-- [x] Entrada
+- [ ] Entrada
 - [ ] Salida
 - [ ] Pagar
-- [ ] Notificaciones
+- [x] Notificaciones
 - [ ] Notificación
 - [ ] Localizar vehículo
 - [ ] Reservar plaza
