@@ -4,7 +4,7 @@ Repositorio donde subimos nuestros maravillosos prototipos
 ---
 To-Do:
 
-- [ x ] Inicio
+- [x] Inicio
 - [ ] Entrada
 - [ ] Salida
 - [ ] Pagar
