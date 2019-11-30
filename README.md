@@ -5,8 +5,8 @@ Repositorio donde subimos nuestros maravillosos prototipos
 To-Do:
 
 - [x] Inicio
-- [ ] Entrada
-- [ ] Salida
+- [x] Entrada
+- [x] Salida
 - [ ] Pagar
 - [x] Notificaciones
 - [x] Notificación
