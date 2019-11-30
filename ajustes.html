@@ -13,7 +13,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/ajustes.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+
  
 
 </head>
@@ -50,7 +55,7 @@
             <span>Aplicación Parking</span>
           </li>
           <li class="sidebar">
-            <a href="#">
+            <a href="index.html">
               <i class="fa fa-home"></i>
               <span>Inicio</span>
             </a>
@@ -76,7 +81,7 @@
             </div>
           </li>
           <li class="sidebar-dropdown">
-            <a href="#">
+            <a href="ajustes.html">
               <i class="fa fa-cog"></i>
               <span>Ajustes</span>
             </a>
@@ -108,12 +113,52 @@
   <!-- sidebar-wrapper  -->
   <main class="page-content">
     <div class="container-fluid">
-        <h2>Aquí título</h2>
-        <hr>
-        <div class="row">
-            Aquí contenido
-        </div>          
+      <center><h1 style="letter-spacing: 10px; font-family: 'Calistoga', cursive;">AJUSTES</h1></center>
+      <hr>
+      <div class="contenido">
+          <div id="option-1" class="option rounded">
+            <span>
+              <img src="img/modificarDatosUsuario.png" class="icon-option">
+              <h3>Modificar datos usuario</h3>
+            </span>
+          </div>
+          <div id="option-2" class="option rounded">
+            <span>
+              <img src="img/tarjetaCredito.png" class="icon-option">
+              <h3>Administrar pagos</h3>
+            </span>
+          </div>
+          <div id="option-3" class="option rounded">
+            <span>
+              <img src="img/vehiculo.png" class="icon-option">
+              <h3>Vehículos</h3>
+            </span>
+          </div>
+          <div id="option-4" class="option rounded">
+            <span>
+              <img src="img/solicitudBaja.png" class="icon-option">
+              <h3>Solicitud de baja</h3>
+            </span>
+          </div>
+      </div>         
     </div>
+
+    <div class="floating-notification">
+      <i class="fa fa-bell" style="font-size: 2rem;" aria-hidden="true"></i>
+    </div>
+
+    <!--Ventana emergente de solicitud de baja-->
+    <div class="overlay">
+      <div class="popup">
+          <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i>&times;</i></a>
+          <h3>Solicitud de baja</h3>
+          <h4>¿Está seguro de que quiere darse de baja?</h4>
+          <p>Todos sus datos personales seran borrados</p>
+          <input type="submit" class="btn-aceptar" id="btn-aceptar" value="ACEPTAR">
+          <input type="submit" class="btn-rechazar" id="btn-rechazar" value="CANCELAR">
+      </div>
+    </div>
+
   </main>
   <!-- page-content" -->
 </div>
@@ -123,8 +168,7 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
-    
+    <script src="js/ajustes.js"></script>    
 </body>
 
 </html>

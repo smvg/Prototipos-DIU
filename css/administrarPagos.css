@@ -1,0 +1,35 @@
+.contenido {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tarjeta {
+      width: 50rem;
+      margin: 1rem;
+      padding: 1rem;
+      height: auto;
+      position: relative;
+      background-color: lightgray;
+      font-weight: bold;
+      font-size: 20px;
+ }
+
+
+  .tarjeta i {
+      position: relative;
+      font-size: 1.5rem;
+      top: 7%;
+      justify-content: right;
+      cursor: pointer;
+  }
+
+  .tarjeta div{
+    display: inline;
+    margin-left: 22rem;
+}
+  
+
+  .icon-option {
+    height: 6%;
+    width: 6%;
+  }

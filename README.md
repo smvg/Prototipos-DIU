@@ -14,8 +14,8 @@ To-Do:
 - [ ] Reservar plaza
 - [ ] Consultar consumo
 - [ ] Ajustes
-- [ ] Solicitud baja
-- [ ] Modificar datos cliente
+- [x] Solicitud baja
+- [x] Modificar datos cliente
 - [ ] Formas de pago (añadir, modificar, eliminar)
 - [ ] Vehículos (añadir, modificar, eliminar)
 - [x] Parking
