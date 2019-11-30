@@ -40,10 +40,10 @@ $('.option').click(function () {
 
   switch (this.id) {
     case 'option-1':
-      window.location.href = "http://www.w3schools.com";
+      $('#overlay-entrada').addClass("active");
       break;
     case 'option-2':
-      window.location.href = "http://www.w3schools.com";
+      $('#overlay-salida').addClass("active");
       break;
     case 'option-3':
       window.location.href = "http://www.w3schools.com";
@@ -79,4 +79,8 @@ $('.floating-notification').click(function () {
 
 $('.close').click(function () {
   $(this).closest('.notificacion').remove();
+});
+
+$('.btn-cerrar-popup').click(function(){
+  $(this).closest('.overlay').removeClass("active");
 });
