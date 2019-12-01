@@ -4,7 +4,7 @@
   }
 
   .tarjeta {
-      width: 50rem;
+      width: 100%;
       margin: 1rem;
       padding: 1rem;
       height: auto;
@@ -18,18 +18,43 @@
   .tarjeta i {
       position: relative;
       font-size: 1.5rem;
-      top: 7%;
       justify-content: right;
       cursor: pointer;
+      margin: 3px;
   }
 
   .tarjeta div{
     display: inline;
-    margin-left: 22rem;
+    margin-left: 40rem;
 }
   
-
   .icon-option {
-    height: 6%;
-    width: 6%;
+    width: 50px;
+    height: 50px;
+  }
+
+.contenedor-añadir-tarjeta{
+  display: flex;
+  justify-content: center;
+}
+  .contenedor-añadir-tarjeta img{
+    width: 75px;
+    height: 75px;
+  }
+
+  .añadir-tarjeta{
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+    position: relative;
+    margin: 3rem;
+    justify-content: center;
+    height: 10vh;
+    width: 10vh;
+    transition: all 0.2s;
+  }
+
+  .añadir-tarjeta:hover {
+    transform: scale(1.05);
+    cursor: pointer;
   }

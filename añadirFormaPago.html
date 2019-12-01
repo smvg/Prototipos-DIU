@@ -16,9 +16,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/administrarPagos.css" rel="stylesheet">
+    <link href="css/añadirFormaPago.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
 </head>
@@ -85,33 +86,44 @@
         <main class="page-content">
             <div class="container-fluid">
                 <center>
-                    <h1 style="letter-spacing: 10px; font-family: 'Calistoga', cursive;">ADMINISTRAR PAGOS</h1>
+                    <h1 style="letter-spacing: 10px; font-family: 'Calistoga', cursive;">AÑADIR TARJETA</h1>
                 </center>
                 <hr>
                 <div class="contenido">
-                    <div class="tarjeta rounded animated fadeInUp">
-                        <span>Número de tarjeta: </span>**** **** **** 5861
-                        <div class="opciones-tarjeta">
-                            <i><img src="img/editarTarjeta.png" class="icon-option"></i>
-                            <i><img src="img/eliminarFormaPago.png" class="icon-option eliminar"></i>
+                    <div class="datos">
+                        <h4>Datos de la tarjeta</h4>
+                        <form>
+                            <span>Numero de la tarjeta: 
+                                <i class="fa fa-question-circle ayuda-numero" aria-hidden="true"></i>
+                                <div class="contenedor-ayuda contenedor-ayuda-numero">
+                                    <img src="img/numeroTarjeta.jpg" class="icon-option">
+                                </div>
+                                <br>
+                            </span>
+                            <input type="text" placeholder="7894-5248-1539-1286"><br>
+                            <span>CVV/CVC: 
+                                <i class="fa fa-question-circle ayuda-cvv" aria-hidden="true"></i>
+                                <div class="contenedor-ayuda contenedor-ayuda-cvv">
+                                    <img src="img/cvv.PNG" class="icon-option">
+                                </div>
+                                <br>
+                            </span>
+                            <input type="text" placeholder="985"><br>
+                            <span>Fecha de caducidad:
+                                <i class="fa fa-question-circle ayuda-caducidad" aria-hidden="true"></i>
+                                <div class="contenedor-ayuda contenedor-ayuda-caducidad">
+                                    <img src="img/fechaCaducidad.PNG" class="icon-option">
+                                </div>
+                                <br>
+                            </span>
+                            <input type="text" placeholder="mm/aa"><br>
+                            <span>Titular: <br></span>
+                            <input type="text" placeholder="Juan Aguilera Rozas">
+                        </form>
+                        <div class="btns">
+                            <input type="submit" class="btn btn-success" id="btn-guardar" value="GUARDAR">
+                            <input type="submit" class="btn btn-secondary" id="btn-cancelar" value="CANCELAR">
                         </div>
-                    </div>
-                    <div class="tarjeta rounded animated fadeInUp">
-                        <span>Número de tarjeta: </span>**** **** **** 7953
-                        <div class="opciones-tarjeta"> 
-                            <i><img src="img/editarTarjeta.png" class="icon-option"></i>
-                            <i><img src="img/eliminarFormaPago.png" class="icon-option eliminar"></i>
-                        </div>
-                    </div>
-                    <div class="tarjeta rounded animated fadeInUp">
-                        <span>Número de tarjeta: </span>**** **** **** 7826
-                        <div class="opciones-tarjeta">
-                            <i><img src="img/editarTarjeta.png" class="icon-option"></i>
-                            <i><img src="img/eliminarFormaPago.png" class="icon-option eliminar"></i>
-                        </div>
-                    </div>
-                    <div class="contenedor-añadir-tarjeta">
-                        <i class="añadir-tarjeta option rounded"><img src="img/añadirFormaPago.png" class="icon-option añadir"></i>
                     </div>
                 </div>
             </div>
@@ -126,8 +138,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <script src="js/administrarPagos.js"></script>
-
+    <script src="js/añadirFormaPago.js"></script>
 
 </body>
 

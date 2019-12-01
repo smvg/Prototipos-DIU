@@ -1,6 +1,6 @@
 jQuery(function ($) {
 
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
       $(".page-wrapper").removeClass("toggled");
     }
   
@@ -34,10 +34,22 @@ jQuery(function ($) {
     });
   
   });
-$('.eliminar').click(function() {
-    $(this).closest('.tarjeta').remove();
-  });
 
-$('.añadir').click(function(){
-  window.location.href = "añadirFormaPago.html";
+
+$('.ayuda-numero').hover(function(){
+    $('.contenedor-ayuda-numero').addClass('visible');
+}, function(){
+    $('.contenedor-ayuda-numero').removeClass('visible');
+});
+
+$('.ayuda-cvv').hover(function(){
+    $('.contenedor-ayuda-cvv').addClass('visible');
+}, function(){
+    $('.contenedor-ayuda-cvv').removeClass('visible');
+});
+
+$('.ayuda-caducidad').hover(function(){
+    $('.contenedor-ayuda-caducidad').addClass('visible');
+}, function(){
+    $('.contenedor-ayuda-caducidad').removeClass('visible');
 });

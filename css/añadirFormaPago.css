@@ -28,3 +28,32 @@
 .btns input{
     margin-left: 20px;
 }
+
+.icon-option {
+    height: 110px;
+  }
+
+
+.contenedor-ayuda{
+    position: absolute;
+    padding: 1rem;
+    background: rgb(214, 212, 212);
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.contenedor-ayuda-numero{
+    transform: translate(80%, -110%);
+}
+
+.contenedor-ayuda-cvv{
+    transform: translate(43%, -110%);
+}
+
+.contenedor-ayuda-caducidad{
+    transform: translate(77%, -110%);
+}
+
+.visible{
+    visibility: visible;
+}

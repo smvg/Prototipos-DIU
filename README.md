@@ -16,7 +16,7 @@ To-Do:
 - [ ] Ajustes
 - [x] Solicitud baja
 - [x] Modificar datos cliente
-- [ ] Formas de pago (añadir, modificar, eliminar)
+- [x] Formas de pago (añadir, modificar, eliminar)
 - [ ] Vehículos (añadir, modificar, eliminar)
 - [x] Parking
 - [ ] Consultar disponibilidad plazas
