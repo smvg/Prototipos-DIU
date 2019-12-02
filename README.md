@@ -20,5 +20,5 @@ To-Do:
 - [ ] Vehículos (añadir, modificar, eliminar)
 - [x] Parking
 - [ ] Consultar disponibilidad plazas
-- [ ] Consultar tarifas
+- [x] Consultar tarifas
 - [ ] Consultar facturas
