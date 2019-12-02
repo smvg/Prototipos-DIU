@@ -31,9 +31,9 @@ $('.plaza').click(function() {
             '<div class="plaza-confirmacion rounded" id="plaza-confirmacion-' + id + '"> \
                 <h4>Plaza #' + id + '</h4> \
                 <hr> \
-                Entrada &nbsp; <input type="time"><input type="date" value="Fecha" placeholder="Fecha"> \
+                Entrada &nbsp; <input type="time"><input type="date"> \
                 <br><br> \
-                Salida &nbsp; <input type="time"><input type="date" value="Fecha" placeholder="Fecha"> \
+                Salida &nbsp; <input type="time"><input type="date"> \
             </div><br>'
         )
     }

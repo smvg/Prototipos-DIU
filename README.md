@@ -19,6 +19,6 @@ To-Do:
 - [x] Formas de pago (añadir, modificar, eliminar)
 - [ ] Vehículos (añadir, modificar, eliminar)
 - [x] Parking
-- [ ] Consultar disponibilidad plazas
+- [x] Consultar disponibilidad plazas
 - [x] Consultar tarifas
 - [ ] Consultar facturas

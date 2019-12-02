@@ -58,7 +58,7 @@ $('.option').click(function () {
       window.location.href = "http://www.w3schools.com";
       break;
     case 'option-7':
-      window.location.href = "http://www.w3schools.com";
+      window.location.href = "disponibilidad.html";
       break;
     case 'option-8':
       window.location.href = "tarifas.html";
