@@ -1,10 +1,11 @@
 .contenido {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .tarjeta {
-      width: 100%;
+      width: 55rem;
       margin: 1rem;
       padding: 1rem;
       height: auto;
@@ -18,14 +19,16 @@
   .tarjeta i {
       position: relative;
       font-size: 1.5rem;
-      justify-content: right;
       cursor: pointer;
-      margin: 3px;
+      margin: .5rem;
+  }
+  
+  .tarjeta span {
+    margin-right: 20px;
   }
 
-  .tarjeta div{
-    display: inline;
-    margin-left: 40rem;
+  .opciones-tarjeta{
+    float: right;
 }
   
   .icon-option {

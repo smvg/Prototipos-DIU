@@ -46,7 +46,7 @@ jQuery(function ($) {
         window.location.href = "administrarPagos.html";
         break;
       case 'option-3':
-        window.location.href = "http://www.w3schools.com";
+        window.location.href = "vehiculos.html";
         break;
       case 'option-4':
         $('.overlay').addClass("active");

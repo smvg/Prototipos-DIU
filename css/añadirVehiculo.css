@@ -1,0 +1,52 @@
+.contenido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.datos{
+    margin-top: 6rem;
+    width: 25rem;
+    background: white;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .3);
+    padding: 2rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.datos form input{
+    margin-bottom: 1rem;
+    width: 80%;
+}
+
+.btns{
+    display: inline-flex;
+    justify-content:center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btns input{
+    margin-left: 20px;
+}
+
+.icon-option {
+    height: 110px;
+  }
+
+
+.contenedor-ayuda{
+    position: absolute;
+    padding: 1rem;
+    background: rgb(214, 212, 212);
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.contenedor-ayuda-matricula{
+    transform: translate(50%, -110%);
+}
+
+.visible{
+    visibility: visible;
+}
