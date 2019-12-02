@@ -1,0 +1,26 @@
+.plaza:hover {
+    cursor: pointer;
+}
+
+.plazas-seleccionadas {
+    background: repeating-linear-gradient(45deg,#d4d5df,#d4d5df 10px,#c7c9d3 10px,#c7c9d3 20px);
+    display: inline-block;margin-top: 1rem; margin-bottom: 1rem; padding: 1rem; display: flex; flex-direction: column;
+}
+
+.plaza {
+    display: block;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: white;
+}
+
+.confirmacion {
+    max-height: 80vh;
+    overflow: auto;
+}
+
+.plaza-confirmacion {
+    background-color: white;
+    padding: 1rem;
+    margin: 0.5rem;
+}

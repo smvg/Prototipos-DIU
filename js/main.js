@@ -52,7 +52,7 @@ $('.option').click(function () {
       window.location.href = "localizar.html";
       break;
     case 'option-5':
-      window.location.href = "http://www.w3schools.com";
+      window.location.href = "reservar.html";
       break;
     case 'option-6':
       window.location.href = "http://www.w3schools.com";

@@ -11,7 +11,7 @@ To-Do:
 - [x] Notificaciones
 - [x] Notificación
 - [x] Localizar vehículo
-- [ ] Reservar plaza
+- [x] Reservar plaza
 - [ ] Consultar consumo
 - [ ] Ajustes
 - [x] Solicitud baja
