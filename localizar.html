@@ -14,7 +14,9 @@
         crossorigin="anonymous">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
- 
+    <link href="css/mapa.css" rel="stylesheet">
+    <link href="css/localizar.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
 
 </head>
 
@@ -78,12 +80,30 @@
   <!-- sidebar-wrapper  -->
   <main class="page-content">
     <div class="container-fluid">
-        <h2>Aquí título</h2>
+        <center><h1 style="letter-spacing: 10px; font-family: 'Calistoga', cursive;">LOCALIZAR VEHÍCULO</h1></center>
         <hr>
-        <div class="row">
-            Aquí contenido
-        </div>          
+        <div class="contenido">
+            <div id="mapa">
+                <script src="js/mapa.js"></script>
+                <script src="js/localizar_vehiculo.js"></script>
+            </div>
+            <div>
+                <div class="car rounded">
+                    <h4>Mercedes-Benz AMG GLS 63 &nbsp;<i class="fa fa-square" aria-hidden="true" style="color: #a4e59b; float: right;"></i></h4>
+                    <h6>4936LCY</h6>
+                    <span>Aparcado desde las 11:07</span>
+                </div>
+                <div class="car rounded">
+                    <h4>Ferrari 458 Italia &nbsp;<i class="fa fa-square" aria-hidden="true" style="color: #b5b7e9; float: right;"></i></h4>
+                    <h6>5633CCB</h6>
+                    <span>Aparcado desde las 13:34</span>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="floating-notification">
+        <i class="fa fa-bell" style="font-size: 2rem;" aria-hidden="true"></i>
+      </div>
   </main>
   <!-- page-content" -->
 </div>

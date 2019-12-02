@@ -10,7 +10,7 @@ To-Do:
 - [ ] Pagar
 - [x] Notificaciones
 - [x] Notificación
-- [ ] Localizar vehículo
+- [x] Localizar vehículo
 - [ ] Reservar plaza
 - [ ] Consultar consumo
 - [ ] Ajustes
