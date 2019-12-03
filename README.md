@@ -13,11 +13,11 @@ To-Do:
 - [x] Localizar vehículo
 - [x] Reservar plaza
 - [ ] Consultar consumo
-- [ ] Ajustes
+- [x] Ajustes
 - [x] Solicitud baja
 - [x] Modificar datos cliente
 - [x] Formas de pago (añadir, modificar, eliminar)
-- [ ] Vehículos (añadir, modificar, eliminar)
+- [x] Vehículos (añadir, modificar, eliminar)
 - [x] Parking
 - [x] Consultar disponibilidad plazas
 - [x] Consultar tarifas
