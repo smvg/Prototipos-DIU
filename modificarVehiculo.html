@@ -19,7 +19,7 @@
 
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/modificarDatosUsuario.css" rel="stylesheet">
+    <link href="css/añadirVehiculo.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
 </head>
@@ -86,33 +86,34 @@
         <main class="page-content">
             <div class="container-fluid">
                 <center>
-                    <h1 style="letter-spacing: 10px; font-family: 'Calistoga', cursive;">MODIFICAR DATOS DEL USUARIO</h1>
+                    <h1 style="letter-spacing: 10px; font-family: 'Calistoga', cursive;">AÑADIR VEHÍCULO</h1>
                 </center>
                 <hr>
                 <div class="contenido">
                     <div class="datos">
-                        <h4>Datos del usuario</h4>
+                        <h4>Datos del vehículo</h4>
                         <form>
-                            <span>Nombre: <br></span>
-                            <input type="text" value="Brian"><br>
-                            <span>Apellidos: <br></span>
-                            <input type="text" value="Flores"><br>
-                            <span>Teléfono: <br></span>
-                            <input type="text" value="653284496"><br>
-                            <span>DNI: <br></span>
-                            <input type="text" value="77859642-H">
-                            <span>Minusválido:</span> <i class="fa fa-question-circle ayuda-minusvalido" aria-hidden="true"></i>
-                            <div class="contenedor-ayuda contenedor-ayuda-minusvalido">
-                                <img src="img/discapacitado.png" class="icon-option">
+                            <span>Matrícula: 
+                                <i class="fa fa-question-circle ayuda-matricula" aria-hidden="true"></i>
+                                <div class="contenedor-ayuda contenedor-ayuda-matricula">
+                                    <img src="img/matricula.jpg" class="icon-option">
+                                </div>
+                                <br>
+                            </span>
+                            <input type="text" value="3685HDP" maxlength="7" required pattern="[A-Za-z0-9]" title="Use 4 números y 3 letras"><br>
+                            <span>Tipo de vechículo: 
+                                <br>
+                                <select class="selectpicker" name="tipo" id="tipo-vehiculo">
+                                    <option value="0">Coche</option>
+                                    <option value="1">Moto</option>
+                                    <option value="2">Furgoneta</option>
+                                </select>
+                            </span>
+                            <div class="btns">
+                                <input type="submit" class="btn btn-success" id="btn-guardar" value="GUARDAR">
+                                <input type="submit" class="btn btn-secondary" id="btn-cancelar" value="CANCELAR">
                             </div>
-                            <br>
-                            <input type="radio"  name="minusvalido" class="minusvalido" >Sí
-                            <input type="radio"  name="minusvalido" class="minusvalido" checked>No
                         </form>
-                        <div class="btns">
-                            <input type="submit" class="btn btn-success" id="btn-guardar" value="GUARDAR">
-                            <input type="submit" class="btn btn-secondary" id="btn-cancelar" value="CANCELAR">
-                        </div>
                     </div>
                 </div>
             </div>
@@ -130,7 +131,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <script src="js/modificarDatosUsuario.js"></script>
+    <script src="js/vehiculos.js"></script>
 
 </body>
 

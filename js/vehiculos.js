@@ -52,3 +52,11 @@ $('.ayuda-matricula').hover(function(){
 $('#btn-cancelar').click(function(){
   window.location.href = "vehiculos.html";
 });
+
+$('.editar').click(function(){
+  window.location.href = "modificarVehiculo.html";
+});
+
+$('.floating-notification').click(function () {
+  window.location.href = "notificaciones.html";
+});

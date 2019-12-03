@@ -45,3 +45,7 @@ $('.añadir').click(function(){
 $('.modificar').click(function(){
   window.location.href = "modificarFormaPago.html";
 });
+
+$('.floating-notification').click(function () {
+  window.location.href = "notificaciones.html";
+});

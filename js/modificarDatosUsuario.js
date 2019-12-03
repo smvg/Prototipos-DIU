@@ -43,3 +43,7 @@ jQuery(function ($) {
   $("#btn-cancelar").click(function () {
     window.location.href = "ajustes.html"
   });
+
+  $('.floating-notification').click(function () {
+    window.location.href = "notificaciones.html";
+  });
