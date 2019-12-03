@@ -5,7 +5,7 @@
   }
 
   .tarjeta {
-      width: 55rem;
+      width: 70rem;
       margin: 1rem;
       padding: 1rem;
       height: auto;
@@ -15,17 +15,25 @@
       font-size: 20px;
  }
 
+.tarjeta .matricula{
+  display: inline-block;
+  width: 14rem;
+}
 
-  .tarjeta i {
-      position: relative;
-      font-size: 1.5rem;
-      cursor: pointer;
-      margin: .5rem;
-  }
-  
-  .tarjeta span {
-    margin-right: 20px;
-  }
+.tarjeta .nombre{
+  display: inline-block;
+  width: 29rem;
+}
+
+.tarjeta .tipo{
+  display: inline-block;
+  width: 10rem;
+}
+
+.tarjeta i{
+  cursor: pointer;
+}
+
 
   .opciones-tarjeta{
     float: right;
