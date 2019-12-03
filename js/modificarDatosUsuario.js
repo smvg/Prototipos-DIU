@@ -1,6 +1,6 @@
 jQuery(function ($) {
 
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
       $(".page-wrapper").removeClass("toggled");
     }
   
@@ -32,16 +32,14 @@ jQuery(function ($) {
     $("#show-sidebar").click(function () {
       $(".page-wrapper").addClass("toggled");
     });
-  
-  });
-$('.eliminar').click(function() {
-    $(this).closest('.tarjeta').remove();
   });
 
-$('.añadir').click(function(){
-  window.location.href = "añadirFormaPago.html";
-});
+  $('.ayuda-minusvalido').hover(function(){
+    $('.contenedor-ayuda-minusvalido').addClass('visible');
+  }, function(){
+    $('.contenedor-ayuda-minusvalido').removeClass('visible');
+  });
 
-$('.modificar').click(function(){
-  window.location.href = "modificarFormaPago.html";
-});
+  $("#btn-cancelar").click(function () {
+    window.location.href = "ajustes.html"
+  });

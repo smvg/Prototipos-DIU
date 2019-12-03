@@ -53,3 +53,7 @@ $('.ayuda-caducidad').hover(function(){
 }, function(){
     $('.contenedor-ayuda-caducidad').removeClass('visible');
 });
+
+$("#btn-cancelar").click(function () {
+  window.location.href = "administrarPagos.html"
+});

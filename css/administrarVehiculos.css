@@ -1,0 +1,63 @@
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tarjeta {
+      width: 55rem;
+      margin: 1rem;
+      padding: 1rem;
+      height: auto;
+      position: relative;
+      background-color: lightgray;
+      font-weight: bold;
+      font-size: 20px;
+ }
+
+
+  .tarjeta i {
+      position: relative;
+      font-size: 1.5rem;
+      cursor: pointer;
+      margin: .5rem;
+  }
+  
+  .tarjeta span {
+    margin-right: 20px;
+  }
+
+  .opciones-tarjeta{
+    float: right;
+}
+  
+  .icon-option {
+    width: 60px;
+    height: 50px;
+  }
+
+.contenedor-añadir-tarjeta{
+  display: flex;
+  justify-content: center;
+}
+  .contenedor-añadir-tarjeta img{
+    width: 100px;
+    height: 75px;
+  }
+
+  .añadir-tarjeta{
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+    position: relative;
+    margin: 3rem;
+    justify-content: center;
+    height: 10vh;
+    width: 10vh;
+    transition: all 0.2s;
+  }
+
+  .añadir-tarjeta:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }

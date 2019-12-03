@@ -5,7 +5,7 @@
 }
 
 .datos{
-    margin-top: 6rem;
+    margin-top: 3rem;
     width: 25rem;
     background: white;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, .3);
@@ -19,6 +19,10 @@
     width: 80%;
 }
 
+.datos form .minusvalido{
+    width: 10%;
+}
+
 .btns{
     display: inline-flex;
     justify-content:center;
@@ -27,4 +31,24 @@
 
 .btns input{
     margin-left: 20px;
+}
+
+.icon-option {
+    height: 110px;
+  }
+
+.contenedor-ayuda{
+    position: absolute;
+    padding: 1rem;
+    background: rgb(214, 212, 212);
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.contenedor-ayuda-minusvalido{
+    transform: translate(45%, -120%);
+}
+
+.visible{
+    visibility: visible;
 }
