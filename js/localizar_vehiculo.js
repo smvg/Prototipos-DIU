@@ -1,3 +1,3 @@
-vehiculos = [{id: 3, color:  '#a4e59b'},{id: 54, color: '#b5b7e9'}]
+vehiculos = [{id: 3, color:  '#a4e59b', handicap: false},{id: 54, color: '#b5b7e9', handicap: true}]
 
-crearMapa(100, vehiculos);
+crearMapaRelleno(100, vehiculos);

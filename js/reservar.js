@@ -1,6 +1,6 @@
-vehiculos = [{id: 3, color:  'lightgray'},{id: 54, color: 'lightgray'}]
+vehiculos = [{id: 3, color:  'lightgray', handicap: false},{id: 54, color: 'lightgray', handicap: false}]
 
-crearMapa(100, vehiculos);
+crearMapaRelleno(100, vehiculos);
 
 $('.plaza').click(function() {
 
