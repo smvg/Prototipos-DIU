@@ -64,7 +64,7 @@ $('.option').click(function () {
       window.location.href = "tarifas.html";
       break;
     case 'option-9':
-      window.location.href = "http://www.w3schools.com";
+      window.location.href = "consultar_facturas.html";
       break;
     default:
       alert("Id no especificada")

@@ -17,7 +17,7 @@ $('.plaza').click(function() {
 
         // Si no quedan plazas seleccionadas ponemos aviso
         if ($('.plaza-confirmacion').length === 0) {
-            document.getElementById("nada-seleccionado").style.cssText = "display: inherit"
+            document.getElementById("nada-seleccionado").style.cssText = "display: inline-block"
         }
     }
     // Cambiamos el color si seleccionamos
