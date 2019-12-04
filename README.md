@@ -7,7 +7,7 @@ To-Do:
 - [x] Inicio
 - [x] Entrada
 - [x] Salida
-- [ ] Pagar
+- [x] Pagar
 - [x] Notificaciones
 - [x] Notificación
 - [x] Localizar vehículo
