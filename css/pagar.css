@@ -1,0 +1,31 @@
+
+.pagoT{
+  width: 100%;
+  min-width: 500px;
+  text-align:center;
+  height: auto;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.posTarjetas{
+  padding-left: 2rem;
+}
+.añadirPago{
+  width: 100%;
+  min-width: 500px;
+  text-align:center;
+  padding-left: 3rem;
+  height: auto;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.icon-manual {
+  width: 70px;
+  height: 70px;
+}
+
+.container-fluid2{
+  min-width: 500px;
+}
