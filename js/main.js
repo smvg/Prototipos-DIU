@@ -46,7 +46,7 @@ $('.option').click(function () {
       $('#overlay-salida').addClass("active");
       break;
     case 'option-3':
-      window.location.href = "http://www.w3schools.com";
+      window.location.href = "pagar.html";
       break;
     case 'option-4':
       window.location.href = "localizar.html";
