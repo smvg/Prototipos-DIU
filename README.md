@@ -12,7 +12,7 @@ To-Do:
 - [x] Notificación
 - [x] Localizar vehículo
 - [x] Reservar plaza
-- [ ] Consultar consumo
+- [x] Consultar consumo
 - [x] Ajustes
 - [x] Solicitud baja
 - [x] Modificar datos cliente
@@ -21,4 +21,4 @@ To-Do:
 - [x] Parking
 - [x] Consultar disponibilidad plazas
 - [x] Consultar tarifas
-- [ ] Consultar facturas
+- [x] Consultar facturas

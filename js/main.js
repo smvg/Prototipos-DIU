@@ -55,7 +55,7 @@ $('.option').click(function () {
       window.location.href = "reservar.html";
       break;
     case 'option-6':
-      window.location.href = "http://www.w3schools.com";
+      window.location.href = "consultar_consumo.html";
       break;
     case 'option-7':
       window.location.href = "disponibilidad.html";
