@@ -1,3 +1,8 @@
+.contenido {
+    display: flex;
+    flex-direction: column;
+}
+
 .container-fecha {
     display: inline-block;
     padding: 2rem;
