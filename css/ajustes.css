@@ -103,7 +103,8 @@
     margin-right: 20px;
     border: none;
     color: black;
-    background: rgba(240, 9, 9, 0.856);
+    /*background: rgba(240, 9, 9, 0.856);*/
+    background-color: rgba(236, 97, 97, 0.86);
     cursor: pointer;
     border-radius: 3px;
 }

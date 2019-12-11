@@ -220,7 +220,8 @@
   
   .sidebar-wrapper .sidebar-menu .header-menu span {
     font-weight: bold;
-    font-size: 14px;
+    /*font-size: 14px;*/
+    font-size: large;
     padding: 15px 20px 5px 20px;
     display: inline-block;
   }
@@ -228,6 +229,7 @@
   .sidebar-wrapper .sidebar-menu ul li a {
     display: inline-block;
     width: 100%;
+    font-size: large;
     text-decoration: none;
     position: relative;
     padding: 8px 30px 8px 20px;
