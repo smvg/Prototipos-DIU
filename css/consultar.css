@@ -21,3 +21,17 @@
 .container-fecha .precio {
     font-size: 20px;
 }
+
+.floating-notification {
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin: 2rem;
+    transition: all .2s;
+  }
+
+  .floating-notification:hover {
+    transform: rotate(-15deg);
+    cursor: pointer;
+  }
