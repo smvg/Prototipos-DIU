@@ -1,6 +1,6 @@
 $('#btn-pagar').click(function() {
 
-    if ($('.posTarjetas input:radio:checked').length !== 1) {
+    if ($('.contenido input:radio:checked').length !== 1) {
         alert("No se ha seleccionado ninguna tarjeta para pagar!")
     }
     else {

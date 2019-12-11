@@ -20,8 +20,8 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
   <link href="css/pagar.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/2826a6e7e9.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2826a6e7e9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -100,57 +100,52 @@
         </div>
          margin-top:-53px; margin-right:32px;
         -->
-        <div class="pagoT">
-          <h1>Seleccionar tarjeta</h1>
-          <i><img src="img/pagar-online.png"
-              style="position:absolute;  height:50px; width:55px; margin-top:-3.5rem; margin-left:11.5rem;"
-              class="icon-manual" align="right"></i>
-          <br>
-          <div class="posTarjetas">
+        <div class="contenido">
+          <div class="tarjetas rounded">
+            <h4>Seleccionar tarjeta</h4>
+            <hr>
             <input type="radio" name="tarjeta" value="1">&nbsp;Número de tarjeta: **** **** **** 7826
             <br>
             <input type="radio" name="tarjeta" value="2">&nbsp;Número de tarjeta: **** **** **** 7826
             <br>
             <input type="radio" name="tarjeta" value="3">&nbsp;Número de tarjeta: **** **** **** 7826
-          </div>
-          <div class="btns">
-            <input type="submit" class="btn btn-success" style="margin-top:1rem; margin-left:2rem; " id="btn-pagar"
-              value="PAGAR">
+            <br>
+            <br>
+            <img src="img/añadirFormaPago.png"
+              style="height: 2.5rem; position: relative; left: 50%; transform: translate(-50%, 0%);">
+            <hr>
+            <input type="submit" class="btn btn-success" id="btn-pagar" value="PAGAR"
+              style="position: relative; left: 50%; transform: translate(-50%, 0%);">
           </div>
 
+
         </div>
-        <div class="añadirPago">
-          <br>
-          <h1>Añadir Forma de Pago</h1>
-          <a href="añadirFormaPago.html">
-            <i><img src="img/añadirFormaPago.png" class="icon-manual"></i>
-          </a>
-        </div>
+
       </div>
 
-  <div class="floating-notification">
-    <i class="fa fa-bell" style="font-size: 2rem;" aria-hidden="true"></i>
-  </div>
-  </main>
-  <!-- page-content" -->
+      <div class="floating-notification">
+        <i class="fa fa-bell" style="font-size: 2rem;" aria-hidden="true"></i>
+      </div>
+    </main>
+    <!-- page-content" -->
 
-  <!--<div id="overlay-salida-pago" class="overlay">
+    <!--<div id="overlay-salida-pago" class="overlay">
     <div class="popup">
       <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i>&times;</i></a>
       <h3>Código QR de Pago Realizado</h3>
       <img src="img/codigo-qr.png" style="height: 40vh;">
     </div>
   </div>-->
-  <!-- page-wrapper -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-  <script src="js/main.js"></script>
-  <script src="js/pagar.js"></script>
+    <!-- page-wrapper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/pagar.js"></script>
 
 </body>
 
