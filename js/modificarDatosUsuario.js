@@ -56,15 +56,25 @@ jQuery(function ($) {
     var letra = dni.substring(8, 9)
 
     if (dni.length !== 9 || !letra.match(/^[A-Za-z]+$/) || isNaN(numeros)) {
-      alert("El DNI proporcionado no es correcto!")
+      $('#overlay-dni').addClass("active");
       return;
     }
     
     if (isNaN(telefono)) {
-      alert("El teléfono proporcionado no es correcto!")
+      $('#overlay-tel').addClass("active");
       return;
     }
 
     alert("Los datos se han guardado correctamente :)")
 
+  });
+
+  $('.btn-rechazar').click(function() {
+    $('#overlay-tel').removeClass("active");
+    $('#overlay-dni').removeClass("active");
+  });
+
+  $('.btn-cerrar-popup').click(function() {
+    $('#overlay-tel').removeClass("active");
+    $('#overlay-dni').removeClass("active");
   });
