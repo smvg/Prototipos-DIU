@@ -1,3 +1,5 @@
+var tarjeta;
+
 jQuery(function ($) {
 
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
@@ -35,8 +37,18 @@ jQuery(function ($) {
   
   });
 
+  $('.btn-aceptar').click(function() {
+    tarjeta.remove();
+    $('#overlay-quitar').removeClass('active');
+  });
+
+$('.btn-rechazar').click(function() {
+  $('#overlay-quitar').removeClass('active');
+});
+
 $('.eliminar').click(function() {
-    $(this).closest('.tarjeta').remove();
+    tarjeta = $(this).closest('.tarjeta');
+    $('#overlay-quitar').addClass('active');
   });
 
 $('.añadir').click(function(){

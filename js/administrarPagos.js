@@ -1,3 +1,5 @@
+var metodo;
+
 jQuery(function ($) {
 
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
@@ -34,9 +36,14 @@ jQuery(function ($) {
     });
   
   });
-$('.eliminar').click(function() {
-    $(this).closest('.tarjeta').remove();
+$('.btn-aceptar').click(function() {
+    metodo.remove();
+    $('#overlay-quitar').removeClass('active');
   });
+
+$('.btn-rechazar').click(function() {
+  $('#overlay-quitar').removeClass('active');
+});
 
 $('.añadir').click(function(){
   window.location.href = "añadirFormaPago.html";
@@ -44,6 +51,11 @@ $('.añadir').click(function(){
 
 $('.modificar').click(function(){
   window.location.href = "modificarFormaPago.html";
+});
+
+$('.eliminar').click(function() {
+  metodo = $(this).closest('.tarjeta');
+  $('#overlay-quitar').addClass('active');
 });
 
 $('.floating-notification').click(function () {
