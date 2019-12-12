@@ -113,9 +113,14 @@
             <br>
             <img id="icono-add" src="img/añadirFormaPago.png"
               style="height: 2.5rem; position: relative; left: 50%; transform: translate(-50%, 0%);">
+            <br>
             <hr>
-            <input type="submit" class="btn btn-success" id="btn-pagar" value="PAGAR"
-              style="position: relative; left: 50%; transform: translate(-50%, 0%);">
+            <div style="display: inline-block; position: relative; left: 50%; transform: translate(-50%, 0%);">
+              <input type="submit" class="btn btn-success" id="btn-pagar" value="PAGAR">
+              &nbsp;
+            <input type="submit" class="btn btn-secondary" id="btn-pagar" value="CANCELAR"
+              style="margin-left: 20px;" onclick="javascript:window.location.href = 'index.html'">
+            </div>
           </div>
         </div>
       </div>

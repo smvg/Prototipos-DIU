@@ -95,9 +95,18 @@
                 <div id="seleccionar-fecha" class="rounded">
                     <h4>Plazas disponibles</h4>
                     <hr>
-                    <input class="btn" type="time">&nbsp;<input class="btn" type="date" value="Fecha" placeholder="Fecha">
-                    <br><br>
-                    <button class="btn btn-primary">Consultar</button>
+                    <div style="display: flex; flex-direction: row;">
+                      <div style="display: flex; flex-direction: column;">
+                        <span style="font-weight: bold; margin-bottom: 10px;">Hora:</span>
+                        <input class="btn" type="time">
+                      </div>
+                      <div style="display: flex; flex-direction: column; margin-left: 20px;">
+                        <span style="font-weight: bold; margin-bottom: 10px;">Fecha:</span>
+                        <input class="btn" type="date" value="Fecha" placeholder="Fecha">
+                      </div>
+                    </div>
+                    <hr>
+                    <button style="position: relative; left: 50%; transform: translate(-50%, 0%);" class="btn btn-primary">Consultar</button>
                 </div>
             </div>
         </div>          

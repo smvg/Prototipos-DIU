@@ -33,13 +33,12 @@
 .tarjetas {
   display: inline-block;
   margin: 1rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding: 2rem;
   height: auto;
   position: relative;
+  width: 25rem;
   background-color: rgb(245, 240, 240);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .3);
 }
 
 #icono-add {

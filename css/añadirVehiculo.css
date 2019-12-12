@@ -5,9 +5,9 @@
 }
 
 .datos{
-    margin-top: 6rem;
+    margin-top: 1rem;
     width: 25rem;
-    background: white;
+    background: rgb(245, 240, 240);
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, .3);
     padding: 2rem;
     border-radius: 3px;
