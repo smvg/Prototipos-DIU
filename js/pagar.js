@@ -8,3 +8,7 @@ $('#btn-pagar').click(function() {
     }
 
 });
+
+$('#icono-add').click(function() {
+    window.location.href = "añadirFormaPago.html";
+});
