@@ -35,14 +35,15 @@
 }
 
 
-  .opciones-tarjeta{
+.opciones-tarjeta{
     float: right;
 }
   
-  .icon-option {
-    width: 60px;
-    height: 50px;
-  }
+.icon-option {
+   width: 60px;
+   /*height: 50px;*/
+   height: auto;
+}
 
 .contenedor-añadir-tarjeta{
   display: flex;

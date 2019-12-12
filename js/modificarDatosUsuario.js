@@ -65,16 +65,22 @@ jQuery(function ($) {
       return;
     }
 
-    alert("Los datos se han guardado correctamente :)")
+    $('#overlay-success').addClass("active");
 
   });
 
   $('.btn-rechazar').click(function() {
     $('#overlay-tel').removeClass("active");
     $('#overlay-dni').removeClass("active");
+    $('#overlay-success').removeClass("active");
   });
 
   $('.btn-cerrar-popup').click(function() {
     $('#overlay-tel').removeClass("active");
     $('#overlay-dni').removeClass("active");
+    $('#overlay-success').removeClass("active");
+  });
+
+  $('.success').click(function() {
+    window.location.href = "ajustes.html";
   });
