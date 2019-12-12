@@ -102,10 +102,19 @@
                         </div>
                         <h3>Importe: 3.5€</h3>
                         <br>
-                        <button class="btn btn-primary disabled">Reservar</button>
+                        <button onclick="javascript:$('#overlay-reservado').addClass('active');" id="btn-reservar" class="btn btn-primary">Reservar</button>
                     </div>
                 </div>
             </div>
+            <div id='overlay-reservado' class="overlay">
+                <div class="popup">
+                    <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup success"><i>&times;</i></a>
+                    <h3>La reserva se ha efectuado correctamente</h3>
+                    <h4></h4>
+                    <p>Recibirá un recordatorio en las notificaciones 30 minutos antes de empezar la reserva.</p>
+                    <input type="submit" onclick="javascript:$('#overlay-reservado').removeClass('active');" class="btn-rechazar success" id="btn-rechazar" value="ACEPTAR">
+                </div>
+              </div>
             <div class="floating-notification">
                 <i class="fa fa-bell" style="font-size: 2rem;" aria-hidden="true"></i>
             </div>
